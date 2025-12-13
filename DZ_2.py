@@ -1,4 +1,4 @@
-# Квадрат числа.
+ # Квадрат числа.
 square = float(input("Enter a number: "))
 print(f"The square of your number {square ** 2}")
 
@@ -40,3 +40,5 @@ print(thousands)
 print(hundreds)
 print(tens)
 print(ones)
+print(f'{thousands}\n{hundreds}\n{tens}\n{ones}\n{number}')
+print(thousands, hundreds, tens, ones, sep='\n')
