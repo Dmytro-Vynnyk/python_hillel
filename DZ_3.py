@@ -15,5 +15,7 @@ elif action == "/":
         result = number1 / number2
 else:
     print("Invalid operation")
-if result is not None:
+# if result >= 0:
+#     print(f'Result: {result}')
+if result:
     print(f'Result: {result}')
