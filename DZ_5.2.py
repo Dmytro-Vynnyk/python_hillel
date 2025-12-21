@@ -21,8 +21,8 @@ while True:
     if result:
         print(f'Result: {result}')
 
-    yes_or_no = input("Do you want to continue? (Y/N): ").lower()
+    continue_answer = input("Do you want to continue? (Y/N): ").lower()
 
-    if yes_or_no != "y":
+    if continue_answer != "y":
         print("Bye!")
         break
