@@ -1,4 +1,4 @@
-def add_one(some_list):
+def add_one(some_list: list[int]) -> list[int]:
     """
     Adds one to the number represented by a list of digits
     and returns the result as a list of digits.
