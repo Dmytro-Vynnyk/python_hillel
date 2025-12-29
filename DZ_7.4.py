@@ -9,7 +9,7 @@ def common_elements() -> set:
 
     :return: A set of common elements divisible by both 3 and 5
     """
-    return ({i for i in range(100) if i % 3 == 0} & {i for i in range(100) if i % 5 == 0})
+    return {i for i in range(100) if i % 3 == 0} & {i for i in range(100) if i % 5 == 0}
 
 
 print(common_elements())
